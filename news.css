@@ -1,0 +1,83 @@
+*{margin:0;padding:0}
+p,ul,ol{line-height:1.5em;margin-top:1em;margin-bottom:1em}
+ul,ol{margin-left:2em}
+ul{list-style:disc outside}
+ol{list-style:decimal outside}
+a,a:visited,a:active{color:#00f;text-decoration:underline}
+a,a:visited,a:active{color:#08f;text-decoration:none}
+a:hover{text-decoration:underline}
+
+#toolbar{list-style:none;margin:0}
+#toolbar li{float:left}
+#toolbar a{display:block;color:#ccc;text-decoration:none;line-height:50px;margin:0 1.25em;text-transform:uppercase}
+#toolbar a:hover,#toolbar a:active,#toolbar a.active{color:#ffb330;text-decoration:none}
+<!--Toolbar CSS-->
+
+
+.highlight,.dataentry strong{color:#ffb330}s 
+
+.borderlight{solid}
+.bglight{background:#444}
+.title{font-weight:bold;font-size:1.5em;line-height:1.5em;margin-bottom:1em;margin-top:1em}
+.navbutton,.navbutton:visited{color:#333;text-decoration:none;font-weight:normal;font-size:1.2em;line-height:100%;padding:0.25em 1em;border:1px solid;border-color:#ddd #777 #777 #ddd;border-radius:5px;background:#999 url('//x.rebateaccess.com/uimg/01.999999.png') 50% 50% repeat-x;box-shadow:2px 2px 5px 0 rgba(0,0,0,0.7)}
+.navbutton:hover,.navbutton:active{color:#000;text-decoration:none;box-shadow:0 0 0 0 #000}
+.norm-width{margin-left:auto !important;margin-right:auto !important;width:1000px;overflow:auto;display:block}
+.navbutton:active{color:#000;text-decoration:none;box-shadow:0 0 0 0 #000}
+
+
+div.gallery{display: flex; margin: 5px; border: 1px solid #ccc; width: 180px; }
+div.gallery:hover{border: 1px solid #777;}
+div.gallery img{width: 100%; height: auto;}
+div.desc{padding: 15px; text-align: center;}
+
+
+div.statusquery{width:20em;overflow:hidden;clear:none;text-align:left;margin:10px;padding:0 0 2em 0;min-height:20em;position:relative;float:left;display:inline-block;border-radius:0.35em}
+div.statusquery p{font-weight:bold;font-size:1.25em;margin:0.75em 0;text-align:center}
+div.statusquery div{margin:5%}
+div.statusquery div span{display:block}
+div.statusquery .statusbutton{text-align:center;margin:0;position:absolute;bottom:1em;padding:0.75em;width:100%}
+html,body{background:#100015;font-family:Arial,Verdana,Helvetica,sans-serif;border:0;margin:0;color:#fff;font-size:14px;min-width:1024px;text-align:center;height:100%}
+#wrap{width:100%;min-height:100%}
+
+#header{position:relative;background:#000000;padding:1em;border:1px solid #444;border-width:1px 0}
+#header img,#header ul{float:left;height:55px}
+
+#content{padding:1em;min-height:400px;position:relative;width:980px;margin:0 auto}
+
+#footer{background:#000;font-size:12px;position:relative;margin-top:-60px;height:60px;line-height:60px;clear:both;text-align:center}
+
+h1 {
+	margin: 1em;
+	border: 1px dotted #black;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+.news{
+	padding: 70px;
+}
+.news img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	float: left;
+	font-size: 1.5em;
+	color: #FFA500;
+}
+.news hr {
+	display : flex;
+	margin: 5px;
+	border: 1px dotted #FFFFFF;
+	clear: both;
+}
+.description {
+	float : left;
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+.news p{
+	float : left;
+	text-align : right;
+}
